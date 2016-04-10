@@ -1,0 +1,13 @@
+***********************************************************
+                           WARNING
+***********************************************************
+
+This software is meant to be used * EXCLUSIVELY * against
+web servers for which you have the required authorization.
+
+SCRT - Information Security * CANNOT *  be held as responsible
+for any misuse of this software. If you decide to ignore this
+warning and use this software without authorization from web
+server administrator/responsible it is * AT YOUR OWN RISK *.
+
+

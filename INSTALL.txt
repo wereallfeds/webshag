@@ -1,0 +1,70 @@
+* Note for Windows users
+-----------------------------------------------------------------------------------
+To ensure better compatibility with various Windows versions Webshag 1.10 Windows
+installer does NOT embed Python runtime and wxPython libraries. These elements
+thus have to be properly installed on the machine prior to installing Webshag.
+
+
+* Requirements
+-----------------------------------------------------------------------------------
+Before installing Webshag 1.10, please ensure that the following holds:
+
+	* Python 2.5 or 2.6 is properly installed (http://www.python.org/download/).
+	  Note that Webshag 1.10 is NOT compatible with Python 3.0. Also ensure that
+	  Python directory is in the PATH.
+
+	* wxPython is properly installed (http://www.wxpython.org/download.php)
+
+	* It is possible to run different versions of Webshag on a single machine IF
+	  they are installed in different locations. However, Webshag 1.10 CANNOT be
+	  installed over an existing Webshag 1.00 installation. Thus if you plan
+	  to replace Webshag 1.00 with Webshag 1.10 (which is recommended), you have
+	  to UNINSTALL any existing instance of Webshag 1.00 before installing the
+	  latest version.
+
+
+* Install on Linux
+-----------------------------------------------------------------------------------
+
+	* Decompress ws110.tar.gz to desired location (e.g. /home/<user>/webshag1.10/)
+
+	  $> mkdir ~/webshag1.10
+	  $> cp ws110.tar.gz ~/webshag1.10/
+	  $> cd ~/webshag1.10
+	  $> tar xzvf ws110.tar.gz 
+
+	* Execute configuration script and follow instructions
+
+	  $> chmod +x setup.linux.py
+	  $> ./setup.linux.py
+
+	* Run Webshag 1.10
+
+	  [GUI] $> ./webshag_gui.py
+	  [CLI] $> ./webshag_cli.py
+
+
+* Install on Windows using installer
+-----------------------------------------------------------------------------------
+
+	* Run Windows installer (ws110setup.exe). Once install is finished, the
+	  configuration script will be automaticaly run thus simply follow the
+	  on-screen instructions.
+
+
+* Manual install on Windows
+-----------------------------------------------------------------------------------
+
+	* Decompress ws110.zip to desired location (e.g. C:\Program Files\Webshag1.10)
+
+	* Execute configuration script (setup.windows.py) and follow instructions
+
+	* Run Webshag 1.10
+	
+	  [GUI] execute webshag_gui.pyw
+	  [CLI] execute webshag_cli.py (from command line)
+
+	* Optionaly, you can create shortcuts to webshag_gui.py on your Desktop or
+	  Start Menu. However, ensure that "Start In" property is set to Webshag
+	  install directory (C:\Program Files\Webshag1.10 or any other location).
+

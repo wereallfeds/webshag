@@ -1,0 +1,11 @@
+# last mod: 2008-02-17
+
+apache(/1\.[1-9]{1,3})?[::]apache
+apache(/2\.[1-9]{1,3})?[::]apache
+^apache\s?[::]apache
+Microsoft-IIS/([1-7]{1}\.0)[::]iis
+^gws.*[::]gws
+^IBM_HTTP_Server\b[::]apache
+^Lotus-Domino\b[::]domino
+lighttpd(/[0-9]\.[0-9]\.[0-9])?[::]lighttp
+Zeus(/[0-9]\.[0-9])?[::]zeus
